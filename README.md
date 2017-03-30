@@ -13,7 +13,7 @@ This is useful for:
 ## Example Usage
 
 ``` js
-var pty = require('pty.js');
+var pty = require('pty.js-prebuilt');
 
 var term = pty.spawn('bash', [], {
   name: 'xterm-color',
@@ -49,3 +49,4 @@ all code is your original work. `</legalese>`
 ## License
 
 Copyright (c) 2012-2015, Christopher Jeffrey (MIT License).
+Copyright (c) 2017, Michael Marucheck (MIT License).
