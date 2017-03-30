@@ -72,6 +72,7 @@ deploy:
   api_key:
     secure: MdXMdAFzm2MUsDRRhGBiu2lautFO44n9F0htMwDzYNHNLCKdm3sSAIFjfLOVnq8MrBDR15r/5Ak2y8CNHHx8ty0f8hKFiHLtU3e/SIh7cX7JWzk2VA30vKaivuHYscX6LgE3RPjGSG5hm2eWP4bO2+yCVCFAC/fpmyOP8SaLOld9nDz3cLZ1I17fwXDHEcs/or1DGsTl9gk/rNg/D/qPlPDs5gzpick3omtSm6LZVdDdrAYftRUn3/FGLheO8Y7OrmtvG14Xp1MZnxOklIicFgZcFxKq7yCBhjfOq2ey9o9+uIBQyBEQFVArfwc0Fe5VFFcGE4f0BYh0qzevl61/hH72RQnkOdCs+wCOaDuUqYQtxGXmx4AqTGD5l9eNomJxRvzp/WwJUBoP8Fqg7vdJnq0GG9Es/PvB5NUjLYj5OcgXGSAHwmw3bGHveuXkY4dYAnctK7fgur4NS4OUuB78AIqcrViLZs86l0/hW70MbpLQuuCAz3BlN5Q256FIVox19NdfREZNnQxlk/1eWd+rWBFw+/ulBDYPFGH5osyHn5V7rTPKEqXXdygdk5dSvQKWVaJE+qQkpLyFGcqoKAP3F4bSXywJVA4pkIDyq7oD4ru92a/ZDf5F96DEtadWxqO5aVhVhzyKrPlMWgTuFxSOgZZVjgremjbqH/uGZYH6bk0=
   file: "$RELEASE_NODE_FILE"
+  skip_cleanup: true
   on:
     repo: rightparen/pty.js-prebuilt
     tags: true
