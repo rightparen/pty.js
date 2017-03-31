@@ -18,8 +18,7 @@
   "scripts": {
     "clean": "rm -rf build",
     "install": "node-pre-gyp install --fallback-to-build",
-    "prepublish": "node tools/prepublish.js"
-    "preinstall": "node -e 'process.exit(0)'",
+    "prepublish": "node tools/prepublish.js",
     "rebuild": "node-pre-gyp clean rebuild --build-from-source",
     "test": "NODE_ENV=test mocha -R spec"
   },
@@ -33,7 +32,7 @@
   ],
   "dependencies": {
     "extend": "~1.2.1",
-    "node-pre-gyp": "^0.6.5"
+    "node-pre-gyp": "^0.6.34"
   },
   "devDependencies": {
     "mocha": "~1.17.1",
