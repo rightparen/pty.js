@@ -1,5 +1,16 @@
 # pty.js
 
+[![Build Status](https://travis-ci.org/rightparen/pty.js-prebuilt.svg?branch=master)](https://travis-ci.org/rightparen/pty.js-prebuilt)
+
+Fork of [pty.js](https://github.com/chjj/pty.js) prebuilt for Mac and Linux.
+
+## About
+
+`pty.js-prebuilt` includes prebuilt binaries of [pty.js](https://github.com/chjj/pty.js) for Mac and Linux for major versions of node.js and electron. It's meant for use in [Atom packages](https://atom.io/packages) where your end-user might not have a proper build toolchain.
+
+This module isn't meant to be built by the end-user and does not the necessary files to do so.
+
+This package implements
 `forkpty(3)` bindings for node.js. This allows you to fork processes with pseudo
 terminal file descriptors. It returns a terminal object which allows reads
 and writes.

@@ -16,10 +16,11 @@
     "terminal"
   ],
   "scripts": {
-    "build": "node-pre-gyp configure build",
+    "clean": "rm -rf build",
     "install": "node-pre-gyp install --fallback-to-build",
-    "prepublish": "npm ls",
-    "rebuild": "node-pre-gyp rebuild --build-from-source",
+    "prepublish": "node tools/prepublish.js"
+    "preinstall": "node -e 'process.exit(0)'",
+    "rebuild": "node-pre-gyp clean rebuild --build-from-source",
     "test": "NODE_ENV=test mocha -R spec"
   },
   "tags": [
@@ -36,7 +37,7 @@
   },
   "devDependencies": {
     "mocha": "~1.17.1",
-    "nan": "2.3.5",
+    "nan": "^2.0.0",
     "rimraf": "^2.5.1"
   },
   "binary": {
