@@ -2,7 +2,7 @@
   "name": "pty.js-prebuilt",
   "description": "Prebuilt fork of Christopher Jeffrey's pty.js pseudo terminals for node.",
   "author": "Michael Marucheck",
-  "version": "0.3.1",
+  "version": "0.0.0",
   "license": "MIT",
   "main": "./index.js",
   "repository": "git://github.com/rightparen/pty.js-prebuilt.git",
