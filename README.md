@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/rightparen/pty.js-prebuilt.svg?branch=master)](https://travis-ci.org/rightparen/pty.js-prebuilt)
 
+STILL UNDER TESTING -- PLEASE DO NOT USE YET
+
 Fork of [pty.js](https://github.com/chjj/pty.js) prebuilt for Mac and Linux.
 
 ## About
