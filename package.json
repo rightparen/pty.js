@@ -2,7 +2,7 @@
   "name": "pty.js-prebuilt",
   "description": "Prebuilt fork of Christopher Jeffrey's pty.js pseudo terminals for node.",
   "author": "Michael Marucheck",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "main": "./index.js",
   "repository": "git://github.com/rightparen/pty.js-prebuilt.git",
@@ -27,16 +27,13 @@
     "tty",
     "terminal"
   ],
-  "bundledDependencies": [
-    "node-pre-gyp"
-  ],
   "dependencies": {
-    "extend": "~1.2.1",
-    "node-pre-gyp": "^0.6.34"
+    "extend": "~1.2.1"
   },
   "devDependencies": {
     "mocha": "~1.17.1",
     "nan": "^2.0.0",
+    "node-pre-gyp": "^0.6.34",
     "rimraf": "^2.5.1"
   },
   "binary": {
